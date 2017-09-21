@@ -35,9 +35,11 @@ class Program
 {
         public static void Main()
         {
-            MyArray M= new MyArray();
+            MyArray M= new MyArray(); 
 
-            M.show();
+            M.show(); // To print array of class MyArray
+
+            // Logic to execute fibonacci series begins//
 
             int[] array1=new int[1000];
 
@@ -60,6 +62,8 @@ class Program
             {
                 Console.Write("{0}, ",array1[j]);
             }
+
+            //Logic ends//
 
         }
 }
