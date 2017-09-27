@@ -1,48 +1,24 @@
 ﻿using System;
 using FiboApp;
-
-public class MyArray
-{
-     
-    public int show()
-    {
-
-            int[] array=new int[100];
-
-            Console.WriteLine("Enter the size of the array:");
-
-            int a=int.Parse(Console.ReadLine());
-
-            array[0]=0;
-
-            for(int i=0;i<a;i++)
-            {
-                array[i]=i+1;
-                if(array[i]==11)
-                {
-                    Console.WriteLine("Array crosses 10!!");
-                }
-                
-            }
-
-            return 0;
-
-    }
-}
-
-
+using maincode;
 
 
 public class Program
 {
                 public static void Main()
                 {
+                    int size;
+
+                    Console.WriteLine("enter the size of the array");
+
+                    size=int.Parse(Console.ReadLine());
+
                     MyArray M= new MyArray();
 
-                    M.show(); 
+                    M.show(size); 
 
                     int n, i = 0, c;
-                    Console.WriteLine("Enter the number of terms:");
+                    Console.WriteLine("Enter the number of terms of the fibonacci series:");
                     n = int.Parse(Console.ReadLine()) ;
 
                     Console.WriteLine("Fibonacci series\n");

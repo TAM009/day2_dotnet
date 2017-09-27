@@ -6,18 +6,27 @@ namespace FiboApp
 
     public  int FiboFunction(int n)
         {
-            if (n == 0)
+            try
             {
-                return 0;
+                if (n == 0)
+                {
+                    return 0;
+                }
+                else if (n == 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return (FiboFunction(n - 1) + FiboFunction(n - 2));
+                }
             }
-            else if (n == 1)
+
+            catch(Exception ex)
             {
-                return 1;
+                Console.WriteLine(ex.Message);
             }
-            else
-            {
-                return (FiboFunction(n - 1) + FiboFunction(n - 2));
-            }
+          
         }
   }
 }
