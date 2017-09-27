@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator\\Desktop\\day2_dotnet\\Assignment\\Assignment.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Revised Fibonacci Assignment\\Assignment\\Assignment.csproj",
       "projectName": "Assignment",
-      "projectPath": "c:\\Users\\Administrator\\Desktop\\day2_dotnet\\Assignment\\Assignment.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Revised Fibonacci Assignment\\Assignment\\Assignment.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator\\Desktop\\day2_dotnet\\Assignment\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Revised Fibonacci Assignment\\Assignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
